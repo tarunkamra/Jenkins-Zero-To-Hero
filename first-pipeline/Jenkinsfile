@@ -1,0 +1,10 @@
+pipeline {
+  agent none
+  stages {
+    stage('first-message') {
+      steps {
+        echo 'hello this is first pipeline'
+      }
+    }
+  }
+}
